@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+}
+.men-hidden{
+    display: none;
+}
+.menu-hidden{
+    display: none;
+}
+
+/* .menu-visibility{
+    display: none;
+}  */
+.navbar{
+    max-height: 25vh;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: #ffff;
+}
+.logo{
+    display: flex;
+    padding-left: 10px;
+    max-width: 45%;
+    cursor: pointer;
+    z-index: 1;
+}
+.logo a img{
+    height: 40px;
+    padding-top: 10px;
+    z-index: 1;
+}
+
+.navbar-list{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 25px;
+    text-align: center;
+
+}
+.navbar-list li{
+    height: 25px;
+    list-style: none;
+    padding: 25px 0 40px 25px;
+    background-color:transparent;
+    margin:0px 8px 0 0;
+    border-radius: 20px;
+    transition: ease-in-out .3s;
+}
+.navbar-list li a{
+    padding-right: 30px;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.45rem;
+    color: rgb(9, 9, 123);
+}
+.navbar-list li a i{
+    padding-right: 10px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-size: 1.45rem;
+    color: rgb(9, 9, 123);
+}
+.navbar-list li:hover{
+    background-color: rgba(181, 171, 171, 0.24);
+}

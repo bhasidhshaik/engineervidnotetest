@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+main{
+    /* height: 100vh; */
+    width: 100%;
+    
+}
+.intro{
+    /* height: 100vh; */
+    width: 100%;
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 80px;
+    /* padding-left: 30px; */
+}
+.intro-text{
+    max-width: 55%;
+}
+.intro-text p{
+    text-transform: capitalize;
+    font-family: 'Cabin', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0.01cm;
+    padding: 10px 0 0 30px;
+    color: rgba(0, 0, 0, 0.858);
+}
+.intro-text p span{
+    font-family: 'Rowdies', cursive;
+    font-size: 2.5rem; 
+    color: rgb(9, 9, 123);
+    cursor:default;
+}
+.pic img{
+    height: 600px;
+    padding-left: 150px;
+    overflow: hidden;
+}
+.founder{
+    position: relative;
+    left: 350px;
+}
+.founder h4{
+    font-family: 'PT Serif', serif;
+    font-size: 1.4rem;
+    color: rgb(9, 9, 123);
+}
+.founder h4 span{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+   color: black;
+}
+.branches-offered{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.branches-offered h1{
+    color: rgb(163, 13, 13);
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+}
+.branch-names{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.branch-names a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(9, 9, 123);
+    width: 1000px;
+    height: 70px;
+    margin: 10px 0;
+    border-radius: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 13px;
+    border: 2px solid  rgb(9, 9, 123);
+    transition: .3s;
+}
+.branch-names a:hover{
+    color:rgb(9, 9, 123) ;
+    background-color: white;
+}
+.branchwiseh1{
+    padding-top: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.branchwiseh1 h1{
+    color: rgb(163, 13, 13);
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+}
+.container{
+    display: flex;
+    width: 100%;
+    margin-bottom: 150px;
+}
+.cse-box{
+   max-width: 49vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.cse-box p{  
+    background-color: transparent;
+    color: rgb(9, 9, 123);
+    font-family: 'Cabin', sans-serif;
+    padding: 25px;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    width: 60%;
+    margin-bottom: 10px;
+    border: 2px solid  rgb(9, 9, 123);
+
+}
+.cse-box a{
+    color:white ;
+    background-color: rgb(9, 9, 123);
+    border: 1px solid rgb(9, 9, 123);
+    text-decoration: none;
+    padding: 7px;
+    width: 30%;
+    font-family: 'Cabin', sans-serif;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 1.7rem;
+    transition: .3s;
+}
+.cse-box a:hover{
+    background-color: white;
+    color: rgb(9, 9, 123);
+}
+.ece-box{
+    max-width: 49vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.ece-box p{
+    background-color: transparent;
+    color: rgb(9, 9, 123);
+    font-family: 'Cabin', sans-serif;
+    padding: 25px;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    width: 60%;
+    margin-bottom: 7px;
+    border: 2px solid  rgb(9, 9, 123);
+    transition: .3s;
+}
+.ece-box a{
+    color:white ;
+    background-color: rgb(9, 9, 123);
+    border: 1px solid rgb(9, 9, 123);
+    text-decoration: none;
+    padding: 7px;
+    font-family: 'Cabin', sans-serif;
+    border-radius: 25px;
+    width: 30%;
+    font-size: 1.7rem;
+    text-align: center;
+    transition: .3s;
+
+}
+.ece-box a:hover{
+    background-color: white;
+    color: rgb(9, 9, 123);
+}
+.cseece{
+    display: block;
+}
+.civil-box{
+    max-width: 49vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.civil-box p{
+    background-color: transparent;
+    color: rgb(9, 9, 123);
+    font-family: 'Cabin', sans-serif;
+    padding: 25px;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    width: 60%;
+    margin-bottom: 7px;
+    border: 2px solid  rgb(9, 9, 123);
+    transition: .3s;
+}
+.civil-box a{
+    color:white ;
+    background-color: rgb(9, 9, 123);
+    border: 1px solid rgb(9, 9, 123);
+    text-decoration: none;
+    padding: 7px;
+    font-family: 'Cabin', sans-serif;
+    border-radius: 25px;
+    width: 30%;
+    font-size: 1.7rem;
+    text-align: center;
+    transition: .3s;
+
+}
+.civil-box a:hover{
+    background-color: white;
+    color: rgb(9, 9, 123);
+}
+.mech-box{
+    margin-top: 7px;
+    max-width: 49vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.mech-box p{
+    background-color: transparent;
+    color: rgb(9, 9, 123);
+    font-family: 'Cabin', sans-serif;
+    padding: 25px;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    width: 60%;
+    margin-bottom: 7px;
+    border: 2px solid  rgb(9, 9, 123);
+    transition: .3s;
+}
+.mech-box a{
+    color:white ;
+    background-color: rgb(9, 9, 123);
+    border: 1px solid rgb(9, 9, 123);
+    text-decoration: none;
+    padding: 7px;
+    font-family: 'Cabin', sans-serif;
+    border-radius: 25px;
+    width: 30%;
+    font-size: 1.7rem;
+    text-align: center;
+    transition: .3s;
+
+}
+.mech-box a:hover{
+    background-color: white;
+    color: rgb(9, 9, 123);
+}
+.civmech{
+    display: block;
+
+}
+.eee-box{
+    margin-top: 7px;
+    max-width: 49vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.eee-box p{
+    background-color: transparent;
+    color: rgb(9, 9, 123);
+    font-family: 'Cabin', sans-serif;
+    padding: 25px;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    width: 60%;
+    margin-bottom: 7px;
+    border: 2px solid  rgb(9, 9, 123);
+    transition: .3s;
+}
+.eee-box a{
+    color:white ;
+    background-color: rgb(9, 9, 123);
+    border: 1px solid rgb(9, 9, 123);
+    text-decoration: none;
+    padding: 7px;
+    font-family: 'Cabin', sans-serif;
+    border-radius: 25px;
+    width: 30%;
+    font-size: 1.7rem;
+    text-align: center;
+    transition: .3s;
+
+}
+.eee-box a:hover{
+    background-color: white;
+    color: rgb(9, 9, 123);
+}
+.aiml-box{
+    margin-top: 7px;
+    max-width: 49vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.aiml-box p{
+    background-color: transparent;
+    color: rgb(9, 9, 123);
+    font-family: 'Cabin', sans-serif;
+    padding: 25px;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    width: 60%;
+    margin-bottom: 7px;
+    border: 2px solid  rgb(9, 9, 123);
+    transition: .3s;
+}
+.aiml-box a{
+    color:white ;
+    background-color: rgb(9, 9, 123);
+    border: 1px solid rgb(9, 9, 123);
+    text-decoration: none;
+    padding: 7px;
+    font-family: 'Cabin', sans-serif;
+    border-radius: 25px;
+    width: 30%;
+    font-size: 1.7rem;
+    text-align: center;
+    transition: .3s;
+
+}
+.aiml-box a:hover{
+    background-color: white;
+    color: rgb(9, 9, 123);
+}
+ .eeeaiml{
+    display: block;
+}
+.vision{
+    text-transform: capitalize;
+    width: 100%;
+    /* display: flex; */
+}
+.vision h3{
+    color: rgb(163, 13, 13);
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3.2rem;
+    text-align: center;
+}
+.vision p{
+    text-transform: capitalize;
+    font-family: 'Cabin', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0.01cm;
+    /* padding: 10px 0 0 30px; */
+    color: rgba(0, 0, 0, 0.858);
+    padding-left: 70px;
+}
+.vision-text{
+    max-width: 60%;
+    display: inline-block;
+}
+.vision-img{
+    display: inline-block;
+    max-width: 39%;
+}
+.vision-img img{
+    height: 450px;
+}
+.article{
+    padding: 30px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.3rem;
+    color: rgb(9, 9, 123);
+}
+.article h6{
+    padding-top: 30px;
+    color: blue;
+    font-style: italic;
+}

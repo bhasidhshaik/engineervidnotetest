@@ -1,0 +1,36 @@
+
+footer{
+    width: 100%;
+    background-color: #000;
+    color: #ffff;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.social h4{
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 15px 60px 20px 40px;
+    font-size: .9rem;
+}
+.social{
+    display: flex;
+    padding-top: 40px;
+}
+.social a{
+    color: #ffff;
+    padding-right: 20px;
+    font-size: 1.5rem;
+}
+@media (max-width:450px){
+    footer{
+        height: 150px;
+    }
+    .social{
+        display: block;
+    }
+    .social h4{
+        font-size: .7rem;
+        opacity: .9;
+    }
+}
